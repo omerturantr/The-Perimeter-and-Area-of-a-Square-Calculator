@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PerimeterAndAreaOfSquareCalculator {
+public class The_Perimeter_and_Area_of_a_Square_Calculator {
     public static void main(String[] args) {
         double sideLengthOfTheSquare;
         double perimeterOfTheSquare, areaOfTheSquare;
