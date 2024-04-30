@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Calculator {
+public class perimeterAndareaCalculator {
     public static void main(String[] args) {
         double sideLength;
         double perimeter, area;
