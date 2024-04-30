@@ -1,18 +1,18 @@
 import java.util.Scanner;
 
-public class The_Perimeter_and_Area_of_a_Square_Calculator {
+public class Calculator {
     public static void main(String[] args) {
-        double sideLengthOfTheSquare;
-        double perimeterOfTheSquare, areaOfTheSquare;
+        double sideLength;
+        double perimeter, area;
 
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Enter the SIDE LENGTH of the Square: ");     sideLengthOfTheSquare = input.nextFloat();
+        System.out.print("Enter the SIDE LENGTH of the Square: ");     sideLength = input.nextFloat();
 
-        perimeterOfTheSquare = sideLengthOfTheSquare*4;
-        areaOfTheSquare = sideLengthOfTheSquare*sideLengthOfTheSquare;
+        perimeter = sideLength * 4;
+        area = sideLength * sideLength;
 
-        System.out.println("The PERIMETER of the Square is " + perimeterOfTheSquare + " meters.");
-        System.out.println("The AREA of the Square is " + areaOfTheSquare + " square meters.");
+        System.out.println("The PERIMETER of the Square is " + perimeter + " meters.");
+        System.out.println("The AREA of the Square is " + area + " square meters.");
     }
 }
